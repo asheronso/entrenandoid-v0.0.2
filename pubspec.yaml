@@ -1,0 +1,28 @@
+name: gymsheronso
+description: GYMSHERONSO - registro de entrenamientos local para Android.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.4
+  fl_chart: ^0.69.2
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+  image_picker: ^1.1.2
+  file_picker: ^8.1.6
+  share_plus: ^10.1.4
+  wakelock_plus: ^1.2.8
+  audioplayers: ^6.1.0
+  excel: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
